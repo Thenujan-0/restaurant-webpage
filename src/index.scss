@@ -9,16 +9,17 @@ $headerColor:#ff825a;
 $primaryTextColor:#0c0c0cb8;
 $secondaryTextColor:rgb(12 12 12 / 57%);
 
-.navbar{
+#navbar{
     background: $headerColor;
     padding:10px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    a{
+    div{
         text-decoration: none;
         color:white;
         padding:15px;
+        cursor: pointer;
     }
 }   
 
