@@ -2,6 +2,7 @@ import PizzaImage from './assets/sausagePizza.jpg';
 
 function load() {
     const contentElement = document.getElementById('content');
+    contentElement.innerHTML = '';
     const mainHeading = document.createElement('h1');
     mainHeading.classList.add('mainHeading');
     mainHeading.textContent = 'Welcome to Thenujan\'s Tasty Restaurant!';

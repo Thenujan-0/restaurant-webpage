@@ -1,0 +1,20 @@
+.cardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .menuCard{
+        margin-top: 30px;
+        padding: 30px;
+        background-color: #fa9372;
+        border-radius: 10px;
+
+        .section{
+            margin: 10px;
+
+            li{
+                font-size: 18px;
+            }
+        }
+    }
+}
