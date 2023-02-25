@@ -1,3 +1,6 @@
+@import "./color.scss";
+
+
 .cardContainer{
     display: flex;
     align-items: center;
@@ -6,7 +9,7 @@
     .menuCard{
         margin-top: 30px;
         padding: 30px;
-        background-color: #fa9372;
+        background-color: $secondaryBackgroundColor;
         border-radius: 10px;
 
         .section{
