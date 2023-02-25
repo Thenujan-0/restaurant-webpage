@@ -1,13 +1,10 @@
+@import "./color.scss";
+
 *{
     margin:0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
-$section1BackgroundImageColor : #fea78b;
-$headerColor:#ff825a;
-$primaryTextColor:#0c0c0cb8;
-$secondaryTextColor:rgb(12 12 12 / 57%);
 
 #navbar{
     background: $headerColor;
