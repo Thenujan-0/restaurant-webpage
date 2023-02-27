@@ -20,12 +20,23 @@
     }
 }   
 
+#content{
+    position: relative;
+    height: 100%;
+}
+
+.textContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+}
 
 .mainHeading{
     text-align: center;
     color:$primaryTextColor;
     padding-top:30px;
-    background-color: $section1BackgroundImageColor;
 }
 .subHeading{
     text-align: center;
@@ -34,18 +45,30 @@
 }
 
 .imageContainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: $section1BackgroundImageColor;
-    height:500px;
+    z-index: -2;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    overflow-x: hidden;
 
     img{
-        max-height: 100%;
-        width:auto;
+        width:100vw;
+        height: auto;
     }
+}
+
+.darkOverview{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    z-index: -1;
+    background-color: rgba(0,0,0,0.3);
 }
 
 body{
     background-color: $section1BackgroundImageColor;
+    height:100vh;
+    overflow: hidden;
 }

@@ -7,12 +7,10 @@
 
     .container{
         margin-top: 30px;
-        background: $secondaryBackgroundColor;
         display: flex;
         align-items: center;
         justify-content: space-between;
         border-radius: 10px;
-        height: 500px;
         width:clamp(300px,80%,1200px);
 
         .section{
@@ -38,22 +36,25 @@
                     margin-bottom: 5px;
                 }
                 input{
-                    border-radius: 2px;
+                    border-radius: 5px;
                     border:none;
                     outline-width: 0;
-                    color:$primaryTextColor;
+                    color:black;
                     font-size: 18px;
+                    background-color: #E0E0E0;
                 }
             }
             button{
                 border:none;
-                background-color: white;
+                background-color: rgba(255, 255, 255, 0);
+                border: 1px solid white;
+                color: white;
                 font-size: 18px;
                 border-radius: 5px;
                 padding: 8px;
 
                 &:active{
-                    background-color: rgba(255, 255, 255, 0.63);
+                    background-color: rgba(255, 255, 255, 0.1);
                 }
             }
         }
